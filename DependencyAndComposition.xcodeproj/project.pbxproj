@@ -14,6 +14,7 @@
 		01AB5CF728141E3F00A88780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AB5CF628141E3F00A88780 /* Assets.xcassets */; };
 		01AB5CFA28141E3F00A88780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AB5CF828141E3F00A88780 /* LaunchScreen.storyboard */; };
 		01AB5D0228141E7600A88780 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB5D0128141E7600A88780 /* FeedViewController.swift */; };
+		01AB5D0428142A0F00A88780 /* Dependency Diagram and Compositions.drawio.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AB5D0328142A0F00A88780 /* Dependency Diagram and Compositions.drawio.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		01AB5CF928141E3F00A88780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01AB5CFB28141E3F00A88780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01AB5D0128141E7600A88780 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		01AB5D0328142A0F00A88780 /* Dependency Diagram and Compositions.drawio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dependency Diagram and Compositions.drawio.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				01AB5CF828141E3F00A88780 /* LaunchScreen.storyboard */,
 				01AB5CFB28141E3F00A88780 /* Info.plist */,
 				01AB5D0128141E7600A88780 /* FeedViewController.swift */,
+				01AB5D0328142A0F00A88780 /* Dependency Diagram and Compositions.drawio.png */,
 			);
 			path = DependencyAndComposition;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				01AB5CFA28141E3F00A88780 /* LaunchScreen.storyboard in Resources */,
 				01AB5CF728141E3F00A88780 /* Assets.xcassets in Resources */,
 				01AB5CF528141E3D00A88780 /* Main.storyboard in Resources */,
+				01AB5D0428142A0F00A88780 /* Dependency Diagram and Compositions.drawio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
