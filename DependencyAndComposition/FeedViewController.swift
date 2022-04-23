@@ -35,3 +35,11 @@ class RemoteFeedLoader : FeedLoader {
         // do something here
     }
 }
+
+// This will fetch data from cache or json file
+class LocalFeedLoader : FeedLoader {
+    
+    func loadFeed(completion: @escaping ([String]) -> Void) {
+        // do something here
+    }
+}
