@@ -36,10 +36,31 @@ class RemoteFeedLoader : FeedLoader {
     }
 }
 
-// This will fetch data from cache or json file
+// This will fetch data from cache or json file when there is no internet
 class LocalFeedLoader : FeedLoader {
     
     func loadFeed(completion: @escaping ([String]) -> Void) {
         // do something here
+    }
+}
+
+
+struct Reachability {
+    static let networkAvailable = false
+}
+
+class RemoveWithLocalFallbackFeedLoader : FeedLoader {
+    let remote: RemoteFeedLoader
+    let local: LocalFeedLoader
+    
+    init(remote: RemoteFeedLoader, local: LocalFeedLoader){
+        self.remote = remote
+        self.local = local
+    }
+    
+    func loadFeed(completion: @escaping ([String]) -> Void) {
+        let load = Reachability.networkAvailable ?
+            remote.loadFeed: local.loadFeed
+        load(completion)
     }
 }
